@@ -85,9 +85,7 @@ a{
 } */
 
 
-
 .navbar, .nav-branding, .nav-menu{
-    
     padding-top: 1px;
     padding-bottom: 1px;
     justify-content: space-between;
@@ -99,42 +97,38 @@ a{
 }
 
 .navbar{
-    padding-left: 16px;
+    padding-right: 155px;
     gap: 16.5px;
 }
 
 .nav-branding{
     font-size: 2rem;
     font-weight: 600;
-    padding-left: 18px;
+    padding-left: 35px;
     padding-bottom: 8.5px;
     gap: 5px;
 }
 
 .nav-menu{
-    padding-right: 10000px;
-    gap: 16.5px;
+    padding-left: 325px;
+    gap: 80px;
 }
 
-
-
-
-
 .nav-menu-kategori{
+    padding-left: 6px;
     font-size: 9.5pt;
-    padding-right: 330px;
     display: flex;
-    gap: 20px;
     align-items: center;
 }
 
 .nav-menu-kategori a[href="/"] {
+    padding-right: 20px;
     display: flex;
 }
 
 .nav-menu-kategori input[type=text] {
     all: unset;
-    width: 590px;
+    width: 490px;
     height: 27px;
     border-radius: 8px;
     border: 1px solid lightgray;
