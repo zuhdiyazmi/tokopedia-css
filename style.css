@@ -43,6 +43,7 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: lightskyblue;
+    white-space: nowrap;
 }
 
 .navbar-top, .nav-menu-top{
@@ -73,7 +74,6 @@ a{
 }
 
 .navbar{
-    padding-right: 155px;
     gap: 16.5px;
 }
 
@@ -86,9 +86,16 @@ a{
 }
 
 .nav-menu{
-    padding-left: 325px;
+    margin-left: auto;
+    margin-right: 70px;
     gap: 80px;
 }
+
+/* @media screen and (max-width: 695px) {
+    .nav-menu {
+        gap: 40px;
+    }
+  } */
 
 .nav-menu-kategori{
     padding-left: 6px;
@@ -102,7 +109,7 @@ a{
 .nav-menu-kategori input[type=text] {
     all: unset;
     color: red;
-    width: 490px;
+    width: 585px;
     height: 27px;
     border-radius: 8px;
     border: 1px solid lightgray;
@@ -119,10 +126,13 @@ a{
 .navbar-bottom, .nav-branding-bottom, .nav-menu-bottom{
     display: flex;
     padding-bottom: 3.5px;
-    padding-left: 136.5px;
+    padding-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: lightsalmon;
     justify-content: space-between;
     gap: 14.5px;
+    white-space: nowrap;
 }
 
 h1{
