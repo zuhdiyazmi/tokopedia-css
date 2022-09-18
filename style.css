@@ -68,7 +68,7 @@ a{
     padding-bottom: 1.2px;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: lightyellow;
     display: flex;
 }
 
@@ -119,7 +119,7 @@ a{
 .navbar-bottom, .nav-branding-bottom, .nav-menu-bottom{
     display: flex;
     padding-bottom: 3.5px;
-    padding-left: 136px;
+    padding-left: 136.5px;
     background-color: lightsalmon;
     justify-content: space-between;
     gap: 14.5px;
