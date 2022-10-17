@@ -1,91 +1,82 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: open sauce system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: darkblue;   
-    font-size: 9.5pt;
+    color: darkblue;
+    font-size: 9pt;
 }
 
-::placeholder{
+::placeholder {
     color: red;
 }
 
-body{
+body {
     position: relative;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
-    text-decoration: none; 
+a {
+    text-decoration: none;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: auto;
 }
 
 /* header atas */
 
-.navbar-top, .nav-branding-top, .nav-menu-top{
+.navbar-top, .nav-branding-top, .nav-menu-top {
     display: flex;
-    padding-top: 1.2px;
-    padding-bottom: 3.2px;
     justify-content: space-between;
     align-items: center;
     background-color: lightskyblue;
     white-space: nowrap;
 }
 
-.navbar-top, .nav-menu-top{
-    padding-left: 16px;
-    padding-right: 9px;
-    gap: 16px;
+.navbar-top, .nav-menu-top {
+    padding: 3px 20px;
+    gap: 20px;
 }
 
-.nav-branding-top{
-    padding-left: 18px;
-    gap: 4.5px;
+.nav-branding-top {
+    padding: 0 20px;
+    gap: 5px;
 }
 
-.icon-header{
-    padding-top: 2.5px;
-    height: 20px;
+.icon-header {
+    width: 20px;
 }
 
 /* header tengah */
 
-.navbar, .nav-branding, .nav-menu, .nav-menu-kategori{
-    padding-top: 1.2px;
-    padding-bottom: 1.2px;
+.navbar, .nav-branding, .nav-menu, .nav-menu-kategori {
+    padding: 3px;
     justify-content: space-between;
     align-items: center;
     background-color: lightyellow;
     display: flex;
 }
 
-.navbar{
+.navbar {
     gap: 16.5px;
 }
 
-.nav-branding{
-    font-size: 24pt;
-    font-weight: 600;
-    padding-left: 35px;
-    padding-bottom: 8.5px;
-    gap: 5px;
+.nav-branding {
+    margin-left: 35px;
 }
 
-.nav-menu{
+.nav-menu {
     margin-left: auto;
     margin-right: 70px;
     gap: 80px;
@@ -97,7 +88,7 @@ a{
     }
   } */
 
-.nav-menu-kategori{
+.nav-menu-kategori {
     padding-left: 6px;
 }
 
@@ -111,57 +102,58 @@ a{
     color: red;
     width: 585px;
     height: 27px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px solid lightgray;
     padding-left: 11px;
     padding-right: 11px;
 }
 
-.nav-menu-kategori a[href="/"], .nav-menu-kategori input[type=text]{
-    padding-bottom: 3px;
+.nav-menu-kategori a[href="/"], .nav-menu-kategori input[type=text] {
+    padding-bottom: 2px;
 }
 
-.icon-tokopedia{
-    margin-top: 10px;
+.icon-tokopedia {
+    margin: 8px 0;
 }
 
 /* header bawah */
 
-.navbar-bottom, .nav-branding-bottom, .nav-menu-bottom{
+.navbar-bottom, .nav-menu-bottom {
     display: flex;
-    padding-bottom: 3.5px;
-    padding-right: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2px;
     background-color: lightsalmon;
-    justify-content: space-between;
-    gap: 14.5px;
+    gap: 17px;
     white-space: nowrap;
 }
 
-h1{
+.nav-menu-bottom {
+    margin-left: 275px;
+}
+
+h1 {
     padding-left: 8px;
     font-size: 25px;
-} 
-.home, .about, .contact{
+}
+
+.home, .about, .contact {
     height: 280px;
     background-color: lightgray;
     border: 1px solid black;
 }
 
-.home{
+.home {
     margin-top: 140px;
 }
 
-.about, .contact{
+.about, .contact {
     margin-top: 25px;
 }
 
-.contact{
+.contact {
     margin-bottom: 300px;
 }
 
-.nama{
+.nama {
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
